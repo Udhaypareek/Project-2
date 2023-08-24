@@ -1,0 +1,84 @@
+/* NAVIGATION */
+#Navbar{
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+.newnav{
+    margin: -49px -92px;
+font-size: 11px;
+}
+.search{
+    margin: 13px 73px -39px -194px;
+}
+/* CATAEGRIES  */
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 270px;
+    overflow:auto;
+}
+
+
+/* BANNER SECTION   */
+
+.Banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* EXCLUSIVE SECTION  */
+#ex-head{
+    font-size: 1.3rem;
+}
+#ex-para{
+    font-size: 1.2rem;
+}
+
+.eximg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    
+}
+.eximg2{
+    width: 50%;
+    margin: 10px 25%;
+}
+.Exclusive{
+    height: 600px;
+}
+.Exclusive::before{
+    height: 100px;
+}
+
+
+/* TOP  PICKS SECTION  */
+
+.Topitem{
+    flex-direction: column;
+}
+
+.btn{
+    padding: 0px 0px;
+    font-size: 15px;
+    margin: 12px 2px;
+  
+}
+.img4{
+width: 40vw;
+}
+
+
+
+
+/* END BANNER SECTION  */
+.End img{
+    width: 100%;
+    height: auto;
+
+}

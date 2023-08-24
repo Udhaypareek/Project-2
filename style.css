@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation bar CSS */
+#Navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 30px 30px;
+    margin: 20px 90px;
+}
+
+#Navbar {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky; 
+    top: 0px;
+    z-index: 1;
+    /* justify-content: space-between; */
+
+}
+
+#Navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 6px;
+}
+
+#Navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* #Navbar ul div {
+    position: relative;
+    top: -27px;
+    right: -27px;
+}
+
+#Navbar ul div input {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+} */
+
+#Navbar img {
+    margin: 26px 5px;
+    padding: 0px 12px;
+}
+
+.newnav{
+    display: flex;
+    flex-direction: column;
+    margin: -12px 2px;
+}
+.nav1{
+    display: flex;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    margin: 12px 2px;
+}
+
+.search{
+    margin: -14px 0px 0px 263px;
+}
+#Search-button{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+/* BANNER CSS */
+.Banner img {
+    width: 100%;
+    height: 81.4vh;
+    opacity: 0.97;
+}
+
+/* CATEGORIES CSS */
+.Categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+}
+
+.img {
+    width: 177px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 50px;
+
+
+}
+
+.item2:hover {
+    top: -5px;
+    box-shadow: 2px 2px 12px 2px gray;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transform: .3s;
+    margin: 30px 2px;
+}
+
+.Categories div h1 {
+    margin: 5px 2px;
+}
+
+.Categories-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Categories-heading div {
+    width: 100px;
+    height: 5px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* EXCLUSIVE RANGE CSS */
+
+.Exclusive {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+}
+
+.exheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.Exclusive div h1 {
+    margin: 30px 0px;
+    font-size: 2.1rem;
+}
+
+.Exclusive div p {
+    font-family: 'Explora', cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.eximg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.eximg2 {
+    width: 600px;
+    margin: 0px 20px;
+    transform: 2s;
+}
+
+.eximg2:hover {
+    box-shadow: 2px 2px 15px 4px whitesmoke;
+    top: -12px;
+    position: relative;
+}
+/* TOP PICK SECTION CSS */
+
+.TopPicks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Topitem {
+    display: flex;
+    margin: auto;
+}
+
+.Topheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.Topheading div {
+    width: 150px;
+    height: 5px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.img4 {
+    width: 20vw;
+}
+.item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px 20px;
+}
+.btn {
+    border: 2px solid black;
+    padding: 10px 100px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+
+}
+.btn:hover {
+    color: goldenrod;
+}
+/* ENDLINE SECTION CSS */
+.Endline {
+    width: 80vw;
+    height: 5px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    height: 50px;
+    color: whitesmoke;
+}
+/* WHATSAPP BUTTON CSS */
+.Whatsapp img {
+    width: 50px;    
+    position: fixed;
+    bottom: 55px;
+    right: 20px;
+    z-index: 10;
+}
+
+
